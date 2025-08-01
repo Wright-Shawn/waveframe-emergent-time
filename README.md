@@ -39,6 +39,7 @@ The previous version can be found here:
 # Repository Structure
 
 - `theory/` – Core equations, derivations, and physical framing
+-   → [Emergent Time Formalism](theory/emergent_time_formalism.md)
 - `notebooks/` – Simulation code, numerical methods, validation routines
 - `figures/` – Diagnostic and comparison plots (growth, distance modulus, etc.)
 - `data/` – Observational datasets and processed tables
