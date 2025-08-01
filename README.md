@@ -30,8 +30,8 @@ Waveframe v2.0 redefines this structure:
 | Interpretation | Modified quintessence model | Foundation for cyclic/emergent cosmology |
 
 The previous version can be found here:  
-Waveframe Hypothesis v0.2 – https://doi.org/10.5281/zenodo.10957188
-
+[Waveframe Hypothesis v0.2](https://doi.org/10.5281/zenodo.16657151)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16657151.svg)](https://doi.org/10.5281/zenodo.16657151)
 ---
 
 ## Repository Structure
