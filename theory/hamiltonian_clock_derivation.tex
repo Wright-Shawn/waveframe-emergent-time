@@ -1,0 +1,109 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{authblk}
+\usepackage{graphicx}
+\usepackage{physics}
+
+\title{Hamiltonian Clock Derivation}
+\author{Wright-Shawn}
+\date{Waveframe v2.0 | 2025-08-01}
+
+\begin{document}
+
+\maketitle
+
+\section*{Abstract}
+This document outlines the derivation of the Hamiltonian constraint in the Waveframe v2.0 model, where the scalar field $\phi$ defines the emergent time coordinate. We derive the cosmological Hamiltonian in minisuperspace and recast the Friedmann equation in $\phi$-time.
+
+\section{Starting Point: Action}
+
+We begin with the scalar field action minimally coupled to gravity:
+
+\begin{equation}
+S = \int d^4x \, \sqrt{-g} \left[ \frac{1}{2} g^{\mu\nu} \partial_\mu \phi \partial_\nu \phi - V(\phi) \right]
+\end{equation}
+
+\section{Homogeneous Cosmology Assumption}
+
+Assume a spatially flat Friedmann-Robertson-Walker (FRW) metric:
+
+\begin{equation}
+ds^2 = -dt^2 + a(t)^2 d\vec{x}^2
+\end{equation}
+
+Assume also that $\phi = \phi(t)$ (homogeneous). The Lagrangian density reduces to:
+
+\begin{equation}
+\mathcal{L} = a^3 \left[ \frac{1}{2} \dot{\phi}^2 - V(\phi) \right]
+\end{equation}
+
+\section{Canonical Momentum}
+
+The conjugate momentum to $\phi$ is:
+
+\begin{equation}
+\pi_\phi = \frac{\partial \mathcal{L}}{\partial \dot{\phi}} = a^3 \dot{\phi}
+\end{equation}
+
+\section{Hamiltonian Density}
+
+The Hamiltonian density is given by:
+
+\begin{align}
+\mathcal{H} &= \pi_\phi \dot{\phi} - \mathcal{L} \\
+&= a^3 \left[ \frac{1}{2} \dot{\phi}^2 + V(\phi) \right]
+\end{align}
+
+Using $\dot{\phi} = \pi_\phi / a^3$, we can express this as:
+
+\begin{equation}
+\mathcal{H} = \frac{1}{2a^3} \pi_\phi^2 + a^3 V(\phi)
+\end{equation}
+
+\section{Hamiltonian Constraint}
+
+In general relativity, the Hamiltonian constraint enforces $\mathcal{H} = 0$ for a closed universe (no external energy sources). Thus:
+
+\begin{equation}
+\frac{1}{2a^3} \pi_\phi^2 + a^3 V(\phi) = 0
+\end{equation}
+
+This relates the field energy to the geometry (via $a$).
+
+\section{Reinterpreting $\phi$ as Time}
+
+We now choose $\phi$ as a clock variable and treat $a(\phi)$ as the dynamical degree of freedom.
+
+Define an effective lapse function $\alpha(\phi)$ via:
+
+\begin{equation}
+ds^2 = -\alpha(\phi)^2 d\phi^2 + a(\phi)^2 d\vec{x}^2
+\end{equation}
+
+This implies:
+
+\begin{equation}
+\frac{da}{d\phi} = \frac{\dot{a}}{\dot{\phi}} = \frac{\dot{a}}{\alpha(\phi)}
+\end{equation}
+
+\section{Effective Friedmann Equation}
+
+Solving the Hamiltonian constraint for $\dot{a}$ and re-expressing in terms of $\phi$, we find the analog of the Friedmann equation:
+
+\begin{equation}
+\left( \frac{1}{a} \frac{da}{d\phi} \right)^2 = \frac{1}{3 M_{\text{Pl}}^2 \alpha(\phi)^2} \left[ \frac{1}{2} + V(\phi) \right]
+\end{equation}
+
+This governs the evolution of $a(\phi)$ in scalar field time.
+
+\section{Summary}
+
+\begin{itemize}
+  \item The Hamiltonian constraint relates field energy to spacetime curvature.
+  \item By identifying $\phi$ as time, we derive a new evolution equation in $\phi$-space.
+  \item The lapse $\alpha(\phi)$ encodes how field time maps to proper time.
+  \item This provides a mathematical foundation for emergent-time cosmology.
+\end{itemize}
+
+\end{document}
