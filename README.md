@@ -1,5 +1,7 @@
 # Waveframe Hypothesis v2.0
 
+[![DOI](https://zenodo.org/badge/1030461404.svg)](https://doi.org/10.5281/zenodo.16696712)
+
 A cosmological model where time, expansion, and gravity emerge from the oscillatory dynamics of a scalar field.  
 Waveframe v2.0 marks a departure from traditional spacetime-driven cosmologies. This version treats the scalar field φ not merely as an evolving quantity, but as the very source of emergent cosmic time and structure. 
 
