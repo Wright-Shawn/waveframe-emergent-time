@@ -22,7 +22,7 @@ Key goals of v2.0:
 - Reframe cosmological expansion as a derivative of φ’s internal phase space evolution
 - Quantify how the scale factor, Hubble parameter, and structure growth follow from the emergent dynamics
 - Compare model predictions against observational datasets (fσ₈(z), H(z), μ(z), BAO)
-- Derive the Hamiltonian constraint and show how φ acts as a physical clock from first principles [see derivation](theory/hamilton_clock_derivation.md)
+- Derive the Hamiltonian constraint and show how φ acts as a physical clock from first principles [see derivation](hamiltonian_clock_derivation.md)
 
 # Conceptual Shift from v0.2
 
