@@ -52,11 +52,12 @@ This is an active research project and a conceptual expansion of the Waveframe f
 
 ---
 
-# Citation
+## Citation
 
 If using or referencing this work, please cite:
 
-Wright, S. (2025). *Waveframe Hypothesis v2.0: A Cosmological Model with Emergent Time*.
+Wright, S. C. (2025). *Waveframe Hypothesis v2.0: A Cosmological Model with Emergent Time* [Software]. Zenodo. https://doi.org/10.5281/zenodo.16696712
+
 
 ---
 
