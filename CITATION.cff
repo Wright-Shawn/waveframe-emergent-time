@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Waveframe Hypothesis v2.0: A Cosmological Model with Emergent Time"
+version: "2.0.0"
+doi: 10.5281/zenodo.16696712
+date-released: 2025-08-01
+license: MIT
+type: software
+authors:
+  - family-names: Wright
+    given-names: Shawn C.
+repository-code: https://github.com/Wright-Shawn/waveframe-emergent-time
+url: https://doi.org/10.5281/zenodo.16696712
