@@ -4,16 +4,6 @@ An alternative cosmological model exploring emergent time, scalar field dynamics
 
 ---
 
-## Repository Structure
-
-- `theory/` – Core equations, scalar potentials, Lagrangians, and time-emergence logic
-- `notebooks/` – Jupyter notebooks for simulations, sweeps, and visualizations
-- `figures/` – All generated plots and their captions (`captions.md`)
-- `data/` – Observational datasets and model output arrays
-- `docs/` – Public-facing documentation and paper drafts (if applicable)
-
----
-
 ## What is Waveframe?
 
 Waveframe proposes that cosmic time is not a fundamental dimension but an emergent property of a dynamical scalar field φ. Spacetime unfolds as the field evolves, governed by a potential V(φ) which shapes the expansion history of the universe. This contrasts with ΛCDM by:
