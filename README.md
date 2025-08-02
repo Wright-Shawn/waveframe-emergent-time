@@ -38,18 +38,9 @@ This is not:
 
 ---
 
-## Files of Interest
-
-- `figures/captions.md` – Descriptions of all included plots
-- `theory/emergent_time.md` – Formalization of time from scalar dynamics
-- `theory/scalar_potentials.md` – Definitions and visuals for all tested V(φ)
-- `notebooks/sweep_phi0_inverse_power.ipynb` – Key parameter sweep on φ₀
-
----
-
 ## Authorship & Credit
 
-This model was developed by an independent researcher using AI-augmented methods and open-source tools. It was built from first principles, simulated, plotted, and documented without institutional access or prior training in cosmology. The entire process is open for scrutiny, replication, and critique.
+This model was developed by an independent researcher using open-source tools. It was built from first principles, simulated, plotted, and documented without institutional access or prior training in cosmology. The entire process is open for scrutiny, replication, and critique.
 
 ---
 
